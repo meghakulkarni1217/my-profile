@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> <strong>StudentRegistration</strong></title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+
+    </head>
+    <style>
+    
+         body{background-color: rgb(213, 211, 211);}
+        fieldset{margin-right: 300px;}
+    label{font-size:medium;
+        font-family: 'Ubuntu', sans-serif;
+        }
+        input{border-top-right-radius: 0%;
+            border-radius:0%
+        width: 50px;
+        padding: 10px;
+        margin-bottom: 10px;
+        color:brown;
+        
+    }
+        input[type="text"]{
+            font-family: 'Bebas Neue', cursive;
+            color:brown;
+            width: 200px;
+            height: 20px;
+        }
+        input[type="number"]{
+           color:brown;
+        }
+        button[type="submit"]{
+            font-family: 'Abril Fatface', cursive;
+            size: 50%;
+        }
+        button[type="reset"]{
+            font-family: 'Abril Fatface', cursive;
+            size:50%;
+        }
+       
+       
+    </style>
+    <body>
+        <h2> <i>Student Registration Form</i></h2>
+        <fieldset>
+            <legend>
+                <span>Student Registration</span>
+            </legend>
+        <form>
+            <table>
+               <tr>
+            <td><label> first Name</label></td>
+            <td><input type="text" maxlength="10" required autofocus placeholder="First Name with only 10 chars"></tr></td><br>
+            <tr><td><label> Last Name</label></td>
+            <td><input type="text" maxlength="20" required autofocus placeholder="Last Name with only 20 chars"></td></tr> <br>
+            <tr><td><label>Age</label></td>
+            <td><input type="number"></td> </tr><br>
+            
+                <tr>
+                    <td>
+                        <label> Date of Birth</label>
+                    </td>
+                    <td>
+                        <input type="date">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label> Select Graduction</label>
+                    </td>
+                    <td> <select> \
+                        <option> MCA</option>
+                        <option> BCA</option>
+                        <option> BE</option>
+                    </select>
+                </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label> Select Gender</label>
+                        <td>
+                            <input type="radio"name="gender"><label> Male</label>
+                            <input type="radio"name="gender"><label>Female</label>
+                        </td>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <label>Select Your hobby</label>
+                    </td>
+                    <td>
+                        <input type="checkbox"><label>Reading books</label>
+                        <input type="checkbox"><label>Watching Movies</label>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <label> Upload profile photo</label>
+                    </td>
+                    <td> <input type="file"></td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <label> Upload Graduction Marksheet</label>
+                    </td>
+                    <td> <input type="file" multiple></td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <label>Mobile No</label>
+                    </td>
+                    <td>
+                        <input type="number">
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <labe>EmailId</labe>
+                        <td><input type="email" placeholder="eg.abc@gmail.com"></td>
+                    </td>
+                   
+                 </tr>
+                 <tr>
+                    <td>
+                        <label>Present address</label>
+                    </td>
+                    <td>
+                        <textarea rows="8" cols="40"></textarea>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <button type="submit">Submit</button>
+                    </td>
+                    <td>
+                        <button type="reset">Reset</button>
+                    </td>
+                 </tr>
+            </table>
+        </form>
+        </fieldset>
+    </body>
+</html>

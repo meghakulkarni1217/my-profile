@@ -3,18 +3,57 @@
     <head>
         <title>Contact Us</title>
     </head>
+    <style>
+       body{background-color: rgb(213, 211, 211);}
+    h2{border: 2px solid black;
+    margin-right: 150px;
+margin-left: 170px;
+padding-left: 35px;
+font-size: 30px;
+margin-bottom: 20px;
+margin-top: 7px;
+font-family: 'Arvo', serif;
+color: rgb(154, 71, 250);
+background-color: beige;}
+    fieldset{margin-right: 300px;}
+    label{font-size:medium;
+        font-family: 'Ubuntu', sans-serif;
+        }
+        input{border: 2px solid rgb(47, 34, 235);
+            border-radius: 10px;
+        width: 300px;
+        padding: 10px;
+        margin-bottom: 10px;
+        color: blue;}
+        input[type="text"]{
+            color: rgb(231, 5, 43);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 15px;
+        }
+       button[type="submit"]{background-color: rgb(60, 9, 243);
+        color: rgb(245, 246, 249);
+        font-size: 20px;
+    border-radius: 13px;}
+       button[type="reset"]{
+        background-color: rgb(245, 46, 46);
+        color: aliceblue;
+        font-size: 20px;
+        border-radius: 13px;
+        margin-left: 28px;}
+    </style>
     <body>
-        <tbody>
-        <h3>Contact Us</h3>
+        <fieldset>
+    <h2 id="name">Contact Us</h2>
         <form>
-            <label>FullName</label>
+            <label>FullName-</label>
             <input type="text">
-            <label>MobileNo</label>
-            <input type="tel"><br>
-            <label>Email</label>
-            <input type="email" id="Email" placeholder="EmailId"><br>
+            <label>MobileNo-</label>
+            <input type="tel">
+            <label>Email-</label>
+            <input type="email" id="Email" placeholder="EmailId">
             <label for="Enquiry">Enquiey</label>
             <textarea id="Enquiry" name="Enquiry" placeholder="Write something.." style="height: 100px"></textarea>
+            </tr>
         </form>
         <tr>
             <td>
@@ -24,6 +63,6 @@
                 <button type="reset">Reset</button>
             </td>
         </tr>
-</tbody>
+        </fieldset>
 </body>
 </html>
